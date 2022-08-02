@@ -5,6 +5,10 @@ html {
   background-color: #fbfbff;
 }
 
+h1 {
+  text-align: center;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -54,4 +58,29 @@ img#home {
 #welcome > p {
   margin: auto;
   font-size: 24px;
+}
+#card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.card {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px 100px;
+  border-radius: 25px;
+  border: 3px solid black;
+  max-width: 750px;
+}
+
+.card-content {
+  font-size: 24px;
+  margin-top: 20px;
+}
+.card-title {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 20px;
 }
