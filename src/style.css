@@ -1,0 +1,57 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background-color: #fbfbff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 100px;
+  font-size: 48px;
+  background-color: #001f54;
+  color: #fbfbff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#tabs {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+button {
+  margin: 0;
+  padding: 10px 25px;
+  color: #fbfbff;
+  font-size: 20px;
+  background-color: #1282a2;
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgb(3, 64, 120, 0.5) 5px 5px;
+}
+
+button:hover {
+  background-color: #034078;
+  box-shadow: rgb(18, 130, 162, 0.5) 5px 5px;
+}
+
+img#home {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#welcome {
+  margin: 100px;
+  gap: 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#welcome > p {
+  margin: auto;
+  font-size: 24px;
+}
